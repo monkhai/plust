@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" fill="none">
+  <title>Plust — from bytes to frames</title>
+  <desc>An experimental video player with a shared Rust core. Work in progress.</desc>
+  <rect width="1200" height="440" rx="24" fill="#10171C"/>
+  <path d="M0 352H1200M820 0V440M1060 0V440" stroke="#213039"/>
+  <rect x="64" y="52" width="166" height="30" rx="15" fill="#25372E"/>
+  <circle cx="81" cy="67" r="4" fill="#A7D9B3"/>
+  <text x="94" y="72" fill="#C7E9CF" font-family="monospace" font-size="12" letter-spacing="1">WORK IN PROGRESS</text>
+  <text x="58" y="210" fill="#F1F4ED" font-family="sans-serif" font-size="116" font-weight="700" letter-spacing="-6">plust</text>
+  <text x="65" y="266" fill="#B4C3CA" font-family="sans-serif" font-size="26">from bytes to frames.</text>
+  <rect x="792" y="90" width="258" height="165" rx="14" fill="#17252D" stroke="#395560" stroke-width="2"/>
+  <rect x="824" y="122" width="258" height="165" rx="14" fill="#1C3039" stroke="#527B87" stroke-width="2"/>
+  <rect x="856" y="154" width="258" height="165" rx="14" fill="#29434C" stroke="#A3CBCB" stroke-width="2"/>
+  <path d="M965 200L1022 236L965 272V200Z" fill="#C8E4D6"/>
+  <path d="M64 393H716" stroke="#38515D" stroke-width="2"/>
+  <circle cx="64" cy="393" r="4" fill="#ACD1C7"/>
+  <circle cx="267" cy="393" r="4" fill="#ACD1C7"/>
+  <circle cx="491" cy="393" r="4" fill="#ACD1C7"/>
+  <rect x="77" y="380" width="69" height="26" fill="#10171C"/>
+  <rect x="280" y="380" width="91" height="26" fill="#10171C"/>
+  <rect x="504" y="380" width="80" height="26" fill="#10171C"/>
+  <g fill="#B4C3CA" font-family="monospace" font-size="13" letter-spacing="2">
+    <text x="84" y="398">BYTES</text>
+    <text x="287" y="398">SAMPLES</text>
+    <text x="511" y="398">FRAMES</text>
+    <text x="873" y="398">RUST · IOS · ANDROID · WEB</text>
+  </g>
+</svg>

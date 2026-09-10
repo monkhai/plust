@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Full Player Test</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: monospace;
+            background: #000;
+            color: #0f0;
+        }
+        h1 {
+            margin: 0 0 20px 0;
+        }
+        #canvas {
+            border: 2px solid #0f0;
+            max-width: 100%;
+            height: auto;
+            display: block;
+            background: #000;
+        }
+        .controls {
+            margin-top: 20px;
+            padding: 10px;
+            background: #111;
+            border: 1px solid #0f0;
+        }
+        button {
+            background: #0f0;
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            margin-right: 10px;
+            cursor: pointer;
+            font-family: monospace;
+            font-weight: bold;
+        }
+        button:hover {
+            background: #0f08;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎬 Full Player Test</h1>
+
+    <canvas id="canvas"></canvas>
+
+    <div class="controls">
+        <button onclick="window.player?.play()">▶️ Play</button>
+        <button onclick="window.player?.pause()">⏸️ Pause</button>
+        <button onclick="console.log('Time:', window.player?.getMediaTime())">⏱️ Get Time</button>
+        <button onclick="console.log('Buffer:', window.player?.bufferSize)">📊 Buffer Size</button>
+    </div>
+
+    <script src="test-player.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+# Build output
+target/
+build/
+.gradle/
+.externalNativeBuild/
+.cxx/
+plust-web/pkg/
+
+# Local tools and machine settings
+.DS_Store
+.idea/
+.vscode/
+.claude/
+.cursor/
+*.iml
+local.properties
+buildServer.json
+xcuserdata/
+*.xcuserstate
+
+# Local media and credentials
+fixtures/
+.env
+.env.*
+*.keystore
+*.jks
